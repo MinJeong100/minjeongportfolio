@@ -1,0 +1,321 @@
+@charset "utf-8";
+body[data-dark=true] {
+    background: none;
+    background-color: #121212;
+    width: 100%;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(0,0,0,0.1);
+}
+::-webkit-scrollbar-thumb {
+    background: #c97189;
+    border-radius: 5px;
+}
+h4 {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.m-nav {
+    background-color: rgba(51, 51, 51, 0.1);
+}
+.about {
+    background: url("../images/bg.jpg") no-repeat;
+    background-size: cover;
+    height: 960px;
+}
+.about-wrap {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.about .about-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 900px;
+    overflow: hidden;
+}
+.about .about-top .tit {
+    flex-basis: 49%;
+    margin-top: 248px;
+}
+.about .about-top .tit h3 {
+    color: #eee;
+    font-size: 60px;
+    line-height: 1.1;
+    font-weight: 300;
+}
+.about .about-top .tit h3:nth-child(1) {
+    position: relative;
+}
+.about .about-top .tit h3:nth-child(1)::after,
+.about .about-top .tit h3:nth-child(3)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 6px;
+    background-color: #eee;
+}
+.about .about-top .tit h3:nth-child(1)::after {
+    width: 40px;
+    margin-left: 20px;
+    animation: scale01 2 6s linear;
+}
+.about .about-top .tit h3:nth-child(3) {
+    padding-left: 125px;
+    position: relative;
+}
+.about .about-top .tit h3:nth-child(3)::after {
+    left: 0;
+    width: 100px;
+    animation: scale02 2 6s linear;
+}
+@keyframes scale01 {
+    0%{
+        width: 0;
+    }
+    50% {
+        width: 40px;
+        background-color: #c97189;
+    }
+    100%{
+        width: 0;
+    }
+}
+@keyframes scale02 {
+    0%{
+        width: 0;
+    }
+    50% {
+        width: 100px;
+        background-color: #c97189;
+    }
+    100%{
+        width: 0;
+    }
+}
+.about .about-top .tit h3 span {
+    font-weight: 500;
+}
+.about .about-top .about-img {
+    margin-top: 51px;
+    width: 33.8021vw;
+    flex-basis: 50%;
+}
+.about .about-top .about-img img {
+    width: 100%;
+}
+.about .about-wrap .txt {
+    flex-basis: 38%;
+    margin-top: -260px;
+}
+.about .about-wrap .txt p {
+    color: #eee;
+    font-weight: 300;
+    flex-basis: 38%;
+}
+.about .about-bottom .aboutme {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    margin: 150px 0;
+}
+.about .about-bottom .aboutme h4 {
+    flex-basis: 20%;
+}
+.about .about-bottom .aboutme .about-txt {
+    flex-basis: 80%;
+}
+.about .about-bottom .aboutme .about-txt p {
+    font-size: 18px;
+}
+
+.about .about-bottom .profile {
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+}
+.about .about-bottom .profile .profile-img {
+    flex-basis: 40%;
+    margin-right: 23px;
+}
+.about .about-bottom .profile .profile-img img {
+    width: 100%;
+}
+.about .about-bottom .profile .profile-txt {
+    flex-basis: 30%;
+}
+.about .about-bottom .profile .profile-txt h4 {
+    margin-bottom: 34px;
+}
+.about .about-bottom .profile div {
+    margin-bottom: 31%;
+}
+
+.about .about-bottom .profile-skill {
+    flex-basis: 40%;
+    margin-right: 40px;
+}
+.about .about-bottom .profile-skill h4 {
+    margin-bottom: 35px;
+}
+/* progress */
+.about .about-bottom .profile-skill .progress-area .progress {
+    margin-bottom: 38px;
+}
+.about .about-bottom .profile-skill .progress-area .progress p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.about .about-bottom .profile-skill .progress-area .progress .progressbar-text {
+    left: 108% !important;
+    top: 82% !important;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1600px) {
+    .about {
+        background-size: cover;
+        height: 900px;
+    }
+    .about-wrap {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+    .about {
+        background-size: cover;
+        height: 721px;
+    }
+    .about-wrap {
+        padding: 0 20px;
+    }
+    .about .about-top .tit {
+        margin-top: 180px;
+        flex-wrap: 40%;
+    }
+    .about .about-top .tit h3 {
+        font-size: 4.3945vw;
+    }
+    .about .about-top .about-img {
+        margin-top: 55px;
+        flex-basis: 47.6%;
+    }
+    .about .about-bottom .aboutme {
+        padding: 0 20px;
+    }
+    .about .about-top .txt {
+        font-size: 14px;
+        margin-top: -220px;
+    }
+    .about .about-bottom .profile {
+        flex-wrap: wrap;
+        padding: 0 80px;
+    }
+    .about .about-bottom .profile .profile-img {
+        flex-basis: 50%;
+        margin-bottom: 0;
+    }
+    .about .about-bottom .profile .profile-txt {
+        flex-basis: 40%;
+        margin-bottom: 0;
+    }
+    .about .about-bottom .profile .profile-txt h4 {
+        margin-bottom: 20px;
+    }
+    .about .about-bottom .profile .profile-txt p {
+        font-size: 18px;
+    }
+    .about .about-bottom .profile div {
+        margin-bottom: 20%;
+    }
+    .about .about-bottom .profile-skill {
+        flex-basis: 90%;
+    }
+    
+}
+@media screen and (max-width: 640px) {
+    h4 {
+        font-size: 30px;
+    }
+    .about {
+        background: url("../images/bgtm.jpg") no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 117vh;
+    }
+    .about-wrap {
+        padding: 0 20px;
+    }
+    .about .about-top {
+        flex-wrap: wrap;
+    }
+    .about .about-top .tit {
+        margin-top: 120px;
+        flex-basis: 100%;
+        justify-content: center;
+        left: 20%;
+    }
+    .about .about-top .tit h3 {
+        font-size: 8vw;
+        margin: 0 6%;
+    }
+    .about .about-top .about-img {
+        margin-top: 50px;
+        flex-basis: 100%;
+    }
+    .about .about-wrap .txt {
+        flex-basis: 100%;
+        margin-top: 50px;
+    }
+    .about .about-top .txt p {
+        flex-basis: 100%;
+    }
+    .about .about-bottom .aboutme {
+        display: block;
+        margin-top: 80px;
+        padding: 0 16px;
+        flex-basis: 100%;
+        height: auto;
+    }
+    .about .about-bottom .aboutme h4 {
+        margin-bottom: 30px;
+        padding-top: 50px;
+    }
+    .about .about-bottom .profile {
+        flex-wrap: wrap;
+    }
+    .about .about-bottom .profile .profile-img {
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+    .about .about-bottom .profile .profile-txt {
+        flex-basis: 100%;
+    }
+    .about .about-bottom .profile .profile-txt h4 {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    .about .about-bottom .profile .profile-txt p {
+        font-weight: 500;
+    }
+    .about .about-bottom .profile div {
+        margin-bottom: 10%;
+    }
+    .about .about-bottom .profile-skill {
+        flex-basis: 88%;
+        padding-bottom: 80px;
+    }
+}
+
+
