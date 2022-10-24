@@ -72,10 +72,10 @@ body[data-dark=true] {
 }
 
 .webapp-wrap .work-content[data-dark=true] {
-    background-color: #121212;
+    background-color: #292929;
 }
 .webapp-wrap .work-content .work-desc[data-dark=true] {
-    background-color: #292929;
+    background-color: #121212;
 }
 .webapp-wrap .work-content .work-desc .tit h2[data-dark=true] {
     color: #eee;
@@ -96,7 +96,7 @@ body[data-dark=true] {
     border-color: #ddd;
 }
 .bg[data-dark=true] {
-    background-color: #292929;
+    background-color: #121212;
 }
 
 /* ========== work ========== */

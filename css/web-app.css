@@ -1,7 +1,7 @@
 @charset "utf-8";
 * { font-family: 'Roboto', 'Noto Sans KR', sans-serif;}
 body[data-dark=true] {
-    background: #121212;
+    background: #292929;
 }
 .header {
     z-index: 1;
