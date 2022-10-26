@@ -22,6 +22,9 @@ body[data-dark=true] {
 .m-nav ul li::after {
     background-color: #3b3b3b;
 }
+.fp-watermark {
+    display: none;
+} 
 #fp-nav ul li, .fp-slidesNav ul li {
     margin: 20px 0;
 }
@@ -133,7 +136,7 @@ body[data-dark=true] {
     content: "";
     position: absolute;
     width: 87%;
-    height: 90%;
+    height: 91.5%;
     background: url("../images/hellinox-tablet.png");
     left: 14px;
     top: 10px;
