@@ -66,7 +66,11 @@ body[data-dark=true] {
     font-size: 0;
     background-color: red;
 }
-.works-wrap .list li .work-item::after {
+.works-wrap .list li .work-item a {
+    display: block;
+    position: relative;
+}
+.works-wrap .list li .work-item a::after {
     content: "";
     position: absolute;
     top: 0;
@@ -78,8 +82,12 @@ body[data-dark=true] {
     cursor: pointer;
     transition: 0.6s;
 }
-.works-wrap .list li:hover .work-item::after {
-    opacity: 0;
+.works-wrap .list li:hover .work-item a::after {
+    opacity: 1;
+}
+.works-wrap .list li:hover .work-item a img {
+    display: block;
+    width: 100%;
 }
 .works-wrap .list li p {
     position: absolute;
@@ -103,11 +111,12 @@ body[data-dark=true] {
     border-radius: 50%;
 }
 .works-wrap .list li:hover p {
-    margin-bottom: 114%;
-    font-size: 20px;
+    margin-bottom: 112%;
+    font-size: 22px;
 }
 .works-wrap .list li img {
     width: 100%;
+    display: block;
     transition: .6s;
 } 
 .works-wrap .list li:hover img {
