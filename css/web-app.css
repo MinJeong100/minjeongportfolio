@@ -116,15 +116,15 @@ body[data-dark=true] {
 }
 
 .section:nth-child(1) .webapp-wrap  .work-content .work-img .pc::after {
-    background: url("../images/hellinox-pc.jpg");
+    background: url("../images/lego-pc.png");
     background-size: cover;
 }
 .section:nth-child(2) .webapp-wrap .work-content .work-img .pc::after {
-    background: url("../images/cwswind-pc.jpg");
+    background: url("../images/hellinox-pc.jpg");
     background-size: cover;
 }
 .section:nth-child(3) .webapp-wrap .work-content .work-img .pc::after {
-    background: url("../images/lego-pc.png");
+    background: url("../images/cwswind-pc.jpg");
     background-size: cover;
 }
 
@@ -145,15 +145,15 @@ body[data-dark=true] {
     border-radius: 5px;
 }
 .section:nth-child(1) .webapp-wrap  .work-content .work-img .tablet::after {
-    background: url("../images/hellinox-tablet.png");
+    background: url("../images/lego-tablet.png");
     background-size: cover;
 }
 .section:nth-child(2) .webapp-wrap .work-content .work-img .tablet::after {
-    background: url("../images/cswind-tablet.png");
+    background: url("../images/hellinox-tablet.png");
     background-size: cover;
 }
 .section:nth-child(3) .webapp-wrap .work-content .work-img .tablet::after {
-    background: url("../images/lego-tablet.png");
+    background: url("../images/cswind-tablet.png");
     background-size: cover;
 }
 .webapp-wrap .work-content .work-img .mobile {
@@ -173,15 +173,15 @@ body[data-dark=true] {
     border-radius: 10px;
 }
 .section:nth-child(1) .webapp-wrap  .work-content .work-img .mobile::after {
-    background: url("../images/hellinox-mobile.png");
+    background: url("../images/lego-mobile.png");
     background-size: cover;
 }
 .section:nth-child(2) .webapp-wrap .work-content .work-img .mobile::after {
-    background: url("../images/cswind-mobile.png");
+    background: url("../images/hellinox-mobile.png");
     background-size: cover;
 }
 .section:nth-child(3) .webapp-wrap .work-content .work-img .mobile::after {
-    background: url("../images/lego-mobile.png");
+    background: url("../images/cswind-mobile.png");
     background-size: cover;
 }
 .section:nth-child(4) .webapp-wrap .work-content .work-img .mobile {
@@ -313,7 +313,6 @@ body[data-dark=true] {
     right: 0;
     bottom: 20px;
 }
-
 
 
 @media screen and (max-width: 1600px) {
